@@ -1,0 +1,11 @@
+#food-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+#food-item{
+    width: 300px;
+    /* border: 1px solid red; */
+    margin:auto;
+    padding: 30px;
+}
